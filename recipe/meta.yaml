@@ -1,10 +1,11 @@
 package:
   name: ipart
-  version: 3.0.2
+  version: 3.0.3
 
 source:
-  url: https://github.com/ihesp/IPART/archive/v3.0.2.tar.gz
-  sha256: 2e1dcd5101160c1f9d2dd8134ce89455a6cd8650d03a5f195c508226967451eb
+  url: https://github.com/ihesp/IPART/archive/v3.0.3.tar.gz
+  sha256: 37749c6096dba5ef1639468201076d19d1cb8cb560127128a0a19f96a9188754
+
 build:
   noarch: python
   number: 0
