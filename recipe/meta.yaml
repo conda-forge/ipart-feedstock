@@ -1,10 +1,10 @@
 package:
   name: ipart
-  version: 3.0
+  version: 3.0.3
 
 source:
-  url: https://github.com/ihesp/IPART/archive/v3.0.tar.gz
-  sha256: 7c01a2ca464ddf7a685cd27f629ce9a24da555f89d7371df782bc60be2ab084c
+  url: https://github.com/ihesp/IPART/archive/v3.0.3.tar.gz
+  sha256: 37749c6096dba5ef1639468201076d19d1cb8cb560127128a0a19f96a9188754
 
 build:
   noarch: python
@@ -31,6 +31,10 @@ test:
   imports:
     - ipart
     - ipart.utils
+  source_files:
+    - tests
+  commands:
+    - python -m unittest discover -s tests
 
 about:
   home: https://github.com/ihesp/IPART
@@ -39,7 +43,7 @@ about:
   summary: 'IPART is a Python package for the detection and tracking of atmospheric rivers from gridded IVT data using image-processing techniques'
   description: |
     IPART is a Python package for the detection and tracking of atmospheric
-    rivers from gridded IVT data using image-processing techniques
+    rivers from gridded (Integrated Vapor Transport) IVT data using image-processing techniques
   doc_url: https://ipart.readthedocs.io/en/latest/
 
 extra:
