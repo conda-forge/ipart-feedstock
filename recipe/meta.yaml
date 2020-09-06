@@ -1,10 +1,10 @@
 package:
   name: ipart
-  version: 3.0.3
+  version: 3.0.5
 
 source:
-  url: https://github.com/ihesp/IPART/archive/v3.0.3.tar.gz
-  sha256: 37749c6096dba5ef1639468201076d19d1cb8cb560127128a0a19f96a9188754
+  url: https://github.com/ihesp/IPART/archive/v3.0.5.tar.gz
+  sha256: e1eeb215e1dc31d2f8770afc5288611f3a3662b56edb6f34a7bbfb4004f92f8a
 
 build:
   noarch: python
@@ -24,8 +24,7 @@ requirements:
     - netcdf4
     - scikit-image
     - networkx
-    - matplotlib 2.2.3*
-    - basemap
+    - matplotlib
 
 test:
   imports:
