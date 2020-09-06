@@ -10,7 +10,7 @@ Feedstock license: BSD-3-Clause
 Summary: IPART is a Python package for the detection and tracking of atmospheric rivers from gridded IVT data using image-processing techniques
 
 IPART is a Python package for the detection and tracking of atmospheric
-rivers from gridded IVT data using image-processing techniques
+rivers from gridded (Integrated Vapor Transport) IVT data using image-processing techniques
 
 
 Current build status
