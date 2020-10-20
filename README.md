@@ -5,9 +5,11 @@ Home: https://github.com/ihesp/IPART
 
 Package license: GPL-3.0-or-later
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ipart-feedstock/blob/master/LICENSE.txt)
 
 Summary: IPART is a Python package for the detection and tracking of atmospheric rivers from gridded IVT data using image-processing techniques
+
+Documentation: https://ipart.readthedocs.io/en/latest/
 
 IPART is a Python package for the detection and tracking of atmospheric
 rivers from gridded (Integrated Vapor Transport) IVT data using image-processing techniques
