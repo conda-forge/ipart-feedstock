@@ -8,7 +8,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
@@ -24,7 +24,7 @@ requirements:
     - netcdf4
     - scikit-image
     - networkx
-    - matplotlib
+    - matplotlib-base
 
 test:
   imports:
