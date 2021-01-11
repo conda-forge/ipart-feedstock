@@ -1,23 +1,25 @@
+{% set version = "3.0.9" %}
+
 package:
   name: ipart
-  version: 3.0.9
+  version: {{ version }}
 
 source:
-  url: https://github.com/ihesp/IPART/archive/v3.0.9.tar.gz
+  url: https://github.com/ihesp/IPART/archive/v{{ version }}.tar.gz
   sha256: 77f320d361aa8f2ac85eda77e0c5fc72ff7e4cf7474219076d967007fefb52f4
 
 build:
-  noarch: python>=3
+  noarch: python
   number: 0
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - setuptools
     - pip
   run:
-    - python
+    - python >=3.6
     - numpy
     - scipy
     - pandas
