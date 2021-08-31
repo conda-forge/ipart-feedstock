@@ -1,4 +1,4 @@
-{% set version = "3.0.9" %}
+{% set version = "3.1.0" %}
 
 package:
   name: ipart
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/ihesp/IPART/archive/v{{ version }}.tar.gz
-  sha256: 77f320d361aa8f2ac85eda77e0c5fc72ff7e4cf7474219076d967007fefb52f4
+  sha256: b8890fd2a2188dce338c565f33b364ce0fef258548093e8d5aad750768e21bee
 
 build:
   noarch: python
